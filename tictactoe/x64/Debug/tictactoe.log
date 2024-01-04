@@ -1,0 +1,33 @@
+﻿Tic Tac Toe Game in SFML
+Description
+This project is a simple implementation of the classic game Tic Tac Toe, developed in C++ using the Simple and Fast Multimedia Library (SFML). It features a graphical interface where players can interact with the game using mouse clicks to place their 'X's and 'O's on the game board.
+
+Features
+Graphical user interface using SFML.
+Support for mouse input to select the cells on the Tic Tac Toe grid.
+Dynamic handling of player turns and game state.
+Visual feedback for player moves using colored 'X's and 'O's.
+Requirements
+SFML 2.x
+C++ compiler (C++11 or higher recommended)
+Make (optional, for building with a Makefile)
+Installation
+To run this game, you need to have SFML installed on your system. You can download SFML from SFML's official website.
+
+Building the Game
+Clone the repository or download the source code.
+
+Make sure SFML is correctly installed and the compiler can find the SFML headers.
+
+Compile the code. If you are using g++, the command might look something like this:
+
+g++ -o tictactoe main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+Run the compiled executable:
+
+
+./tictactoe
+Usage
+After starting the game, a window displaying a 3x3 grid will appear. Players can click on the grid to place their symbol ('X' or 'O') in the corresponding cell. The game alternates turns between the players.
+
+Contributing
+Feel free to fork this project and submit pull requests with any improvements or bug fixes.
